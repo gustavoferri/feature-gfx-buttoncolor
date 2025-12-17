@@ -1,0 +1,36 @@
+/* Botões com cor dinâmica definida via CLI (não inclui button.action.search) */
+.action.primary,
+.action.tocart,
+.action.checkout,
+.primary button,
+.primary .action,
+a.action.primary,
+.checkout-methods-items .action.primary,
+span.action.more.button {
+  background-color: var(--cc-button-bg) !important;
+  border-color: var(--cc-button-bg) !important;
+  border-top-color: var(--cc-button-bg) !important;
+  border-right-color: var(--cc-button-bg) !important;
+  border-bottom-color: var(--cc-button-bg) !important;
+  border-left-color: var(--cc-button-bg) !important;
+}
+.action.primary:hover,
+.action.tocart:hover,
+.action.checkout:hover,
+.primary button:hover,
+.primary .action:hover,
+a.action.primary:hover,
+.checkout-methods-items .action.primary:hover,
+span.action.more.button:hover {
+  filter: brightness(0.92);
+}
+.block-search .action.search.disabled,
+.block-search .action.search[disabled],
+fieldset[disabled] .block-search .action.search {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  filter: none !important;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
