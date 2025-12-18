@@ -40,3 +40,20 @@ A solução segue boas práticas do Adobe Commerce:
 
 ```bash
 bin/magento color:change <hex_color> <store_id>
+
+```
+## Screenshots
+
+Abaixo estão alguns exemplos visuais do uso do comando e do resultado aplicado no frontend.
+
+### Erro – Store View não encontrada
+<img width="531" height="35" alt="store-not-found" src="https://github.com/user-attachments/assets/817b2fb5-5745-4d65-96e7-7c1e01c2c4fa" />
+
+### Sucesso – Comando executado corretamente
+<img width="527" height="35" alt="command-success" src="https://github.com/user-attachments/assets/10cb2c58-a00c-4619-b0be-12a045a78cfc" />
+
+### Página Home – Botões com cor preto (#000000)
+![print-screen-home](https://github.com/user-attachments/assets/11c8186c-e159-41b5-8db7-36058ee77ce8)
+
+### Página de Produto – Botões com cor preto (#000000)
+![product-page](https://github.com/user-attachments/assets/b6e8438c-d2f6-45b2-b2f1-746ed53ec4ee)
